@@ -36,12 +36,12 @@ datasource db {
   provider = "mysql"
   url = "mysql://username:pass@localhost:port/eventet"
 }
-...
+
 **5. Gjenero dhe migro prisman**
 - npx prisma generate
 - npx prisma migrate dev
 
-**6. Per startimin e serverit kalo ne folderin qe permban app.js dhe ekzekuto komanden **
+**6. Per startimin e serverit kalo ne folderin qe permban app.js dhe ekzekuto komanden**
 - node app.js
   
 ### Frontend

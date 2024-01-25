@@ -38,8 +38,8 @@ datasource db {
 }
 ...
 **5. Gjenero dhe migro prisman**
-npx prisma generate
-npx prisma migrate dev
+- npx prisma generate
+- npx prisma migrate dev
 
 **6. Per startimin e serverit kalo ne folderin qe permban app.js dhe ekzekuto komanden **
 - node app.js

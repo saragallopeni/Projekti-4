@@ -1,7 +1,17 @@
 # Projekti-4
+TITULLI I PROJEKTIT "EVENT MENAGMENT"
+
 Ky eshte projekti per menaxhimin e eventeve.Projekti eshte i ndare ne folderin backend ku eshte perdorur prisma dhe express.js dhe ne frontend me angular.
+
+EKZEKUTIMI I PROJEKTIT 
+
 Per ekzekutimin e projektit ne front end => npx ng serve --open.
 Per ekzekutimin e projektit ne backend => node app.js
+Per migrimin e databazes => cd \event-managment-system\BACKEND\Product-Managment-Functionally\Event-creation-updating-deletion\
+cd prisma => prisma generate => prisma migrate dev
+
+DETAJET E PROJEKTIT 
+
 Per ngarkimin e fotove eshte perdorur middleware "FileUpload" ne momentin qe perodruesi i ruan fotot ne databaze ruhet si url me shtimin e 
 "emri i fotos + _photo.jpg".
 Per cdo foto qe eshte bere upload ne folderin foto, duhet transferuar edhe ne folderin assets te aplikacionit ne angular.

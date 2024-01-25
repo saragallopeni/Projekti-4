@@ -1,0 +1,61 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://root:root@localhost:3306/eventet"
+}
+
+enum Roli{
+  Organizues
+  Pjesemarres
+}
+
+model User {
+  id    Int      @id @default(autoincrement()) @unique 
+  emri  String
+  mbiemri String
+  tel String
+  shteti String
+  qyteti String
+  email String   @unique
+  roli Roli
+  eventId     Int? 
+  organizuesiEventet Eventet[] @relation("Organizues")
+  pjesemarresEventet Eventet[] @relation("Pjesemarres")
+
+}
+
+enum TipiEventit{
+   UPCOMING
+   ONGOING
+   FINISHED
+   CANCELED
+}
+
+enum mbajtjaEventit {
+  ONLINE
+  FIZIK
+}
+
+model Eventet {
+  id   Int      @id @default(autoincrement()) @unique
+  photo  String   
+  titulli String
+  pershkrimi String
+  status TipiEventit
+  nisja String
+  perfundimi String
+  start_registration DateTime
+  end_registration DateTime
+  kapaciteti Int
+  mbajtja  mbajtjaEventit
+  vendndodhja String
+  organizuesi  User[] @relation("Organizues")
+  pjesemarresit User[] @relation("Pjesemarres")
+}
+

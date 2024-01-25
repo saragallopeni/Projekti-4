@@ -1,0 +1,731 @@
+{
+	"info": {
+		"_postman_id": "ac92ba17-c3c6-4a5b-ae04-134abb13fd39",
+		"name": "eventmanagment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30404176"
+	},
+	"item": [
+		{
+			"name": "Rregjistrimi i eventeve",
+			"item": [
+				{
+					"name": "http://localhost:3000/app/1/user/1/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/app/1/user/1/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"app",
+								"1",
+								"user",
+								"1",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:3000/app/1/user/1/register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/app/3/user/6/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"app",
+										"3",
+										"user",
+										"6",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"29-ZGn6gFdRwqsz2QY6SgzCjDNwO9k\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 09:22:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Jeni rregjistruar me sukses\"\n}"
+						}
+					]
+				},
+				{
+					"name": "http://localhost:3000/app/3/user/6/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/app/3/user/6/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"app",
+								"3",
+								"user",
+								"6",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:3000/app/3/user/6/register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/app/3/user/12/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"app",
+										"3",
+										"user",
+										"12",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"29-ZGn6gFdRwqsz2QY6SgzCjDNwO9k\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 10:24:36 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Jeni rregjistruar me sukses\"\n}"
+						}
+					]
+				},
+				{
+					"name": "http://localhost:3000/app/3/user/12/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/app/3/user/12/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"app",
+								"3",
+								"user",
+								"12",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:3000/app/3/user/12/register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/app/3/user/12/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"app",
+										"3",
+										"user",
+										"12",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"29-ZGn6gFdRwqsz2QY6SgzCjDNwO9k\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 10:25:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Jeni rregjistruar me sukses\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Krijimi i eventeve",
+			"item": [
+				{
+					"name": "http://localhost:3000/krijo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "postman-cloud:///1eeb7a90-aee4-4ed0-8fd1-791ea036a118"
+								},
+								{
+									"key": "titulli",
+									"value": "This is an event",
+									"type": "text"
+								},
+								{
+									"key": "pershkrimi",
+									"value": "This is an event",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "UPCOMING",
+									"type": "text"
+								},
+								{
+									"key": "nisja ",
+									"value": "16:00",
+									"type": "text"
+								},
+								{
+									"key": "perfundimi",
+									"value": "17:00",
+									"type": "text"
+								},
+								{
+									"key": "start_registration",
+									"value": "2024-01-30T00:00:00.000Z",
+									"type": "text"
+								},
+								{
+									"key": "end_registration",
+									"value": "2024-01-30T00:00:00.000Z",
+									"type": "text"
+								},
+								{
+									"key": "mbajtja",
+									"value": "ONLINE",
+									"type": "text"
+								},
+								{
+									"key": "kapaciteti",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "vendndodhja",
+									"value": "Prishtine",
+									"type": "text"
+								},
+								{
+									"key": "nisja",
+									"value": "15:00",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/krijo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"krijo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:3000/krijo",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "photo",
+											"type": "file",
+											"src": "postman-cloud:///1eeb7a90-aee4-4ed0-8fd1-791ea036a118"
+										},
+										{
+											"key": "titulli",
+											"value": "This is an event",
+											"type": "text"
+										},
+										{
+											"key": "pershkrimi",
+											"value": "This is an event",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "UPCOMING",
+											"type": "text"
+										},
+										{
+											"key": "nisja ",
+											"value": "16:00",
+											"type": "text"
+										},
+										{
+											"key": "perfundimi",
+											"value": "17:00",
+											"type": "text"
+										},
+										{
+											"key": "start_registration",
+											"value": "2024-01-30T00:00:00.000Z",
+											"type": "text"
+										},
+										{
+											"key": "end_registration",
+											"value": "2024-01-30T00:00:00.000Z",
+											"type": "text"
+										},
+										{
+											"key": "mbajtja",
+											"value": "ONLINE",
+											"type": "text"
+										},
+										{
+											"key": "kapaciteti",
+											"value": "7",
+											"type": "text"
+										},
+										{
+											"key": "vendndodhja",
+											"value": "Prishtine",
+											"type": "text"
+										},
+										{
+											"key": "nisja",
+											"value": "15:00",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:3000/krijo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"krijo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "403"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"193-lUKp0wzghHfH2MZ50P8GKi8CPGk\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 10:46:21 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Eventi u shtua me sukses\",\n    \"krijo\": {\n        \"id\": 5,\n        \"photo\": \"1706179581658_photo.jpg\",\n        \"titulli\": \"This is an event\",\n        \"pershkrimi\": \"This is an event\",\n        \"status\": \"UPCOMING\",\n        \"nisja\": \"15:00\",\n        \"perfundimi\": \"17:00\",\n        \"start_registration\": \"2024-01-30T00:00:00.000Z\",\n        \"end_registration\": \"2024-01-30T00:00:00.000Z\",\n        \"kapaciteti\": 7,\n        \"mbajtja\": \"ONLINE\",\n        \"vendndodhja\": \"Prishtine\"\n    },\n    \"photoFileName\": \"1706179581658_photo.jpg\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Detajet e eventeve",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/detajeteventit/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"detajeteventit",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/detajeteventit/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"detajeteventit",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "327"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"147-9uHJAOnDikHF9cyvHtE9Q5JHyXA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 11:06:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 4,\n    \"photo\": \"1706175969074_photo.jpg\",\n    \"titulli\": \"Febrero One Piece Treasure Cup\",\n    \"pershkrimi\": \"This is an event\",\n    \"status\": \"UPCOMING\",\n    \"nisja\": \"10:00\",\n    \"perfundimi\": \"17:00\",\n    \"start_registration\": \"2024-01-18T00:00:00.000Z\",\n    \"end_registration\": \"2024-01-26T00:00:00.000Z\",\n    \"kapaciteti\": 7,\n    \"mbajtja\": \"FIZIK\",\n    \"vendndodhja\": \"Prishtine\"\n}"
+						}
+					]
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/detajeteventit/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"detajeteventit",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/detajeteventit/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"detajeteventit",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "342"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"156-MIHRordWOB1Gcm6Ryh0qrbdp2S4\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 11:06:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"photo\": \"1706175409096_photo.jpg\",\n    \"titulli\": \"AI Pulse - Tech Meetup: Building Safe AI ​\",\n    \"pershkrimi\": \"This is an event \",\n    \"status\": \"FINISHED\",\n    \"nisja\": \"15:00\",\n    \"perfundimi\": \"18:00\",\n    \"start_registration\": \"2024-01-10T00:00:00.000Z\",\n    \"end_registration\": \"2024-01-24T00:00:00.000Z\",\n    \"kapaciteti\": 7,\n    \"mbajtja\": \"FIZIK\",\n    \"vendndodhja\": \"Prishtine\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lista e eventeve",
+			"item": [
+				{
+					"name": "http://localhost:3000/event",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/event",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"event"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:3000/event",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/event",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"event"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1357"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"54d-5UZyv6cbQgRo7Y5Q8H6lnXVHeqs\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 25 Jan 2024 10:28:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"photo\": \"1706113428481_photo.jpg\",\n        \"titulli\": \"CYBER ZERO - The Premier Cybersecurity Conference&Expo in Western Balkans!\",\n        \"pershkrimi\": \"This is an event\",\n        \"status\": \"UPCOMING\",\n        \"nisja\": \"16:00\",\n        \"perfundimi\": \"20:00\",\n        \"start_registration\": \"2024-01-25T00:00:00.000Z\",\n        \"end_registration\": \"2024-01-30T00:00:00.000Z\",\n        \"kapaciteti\": 7,\n        \"mbajtja\": \"ONLINE\",\n        \"vendndodhja\": \"Prishtine\"\n    },\n    {\n        \"id\": 2,\n        \"photo\": \"1706175409096_photo.jpg\",\n        \"titulli\": \"AI Pulse - Tech Meetup: Building Safe AI ​\",\n        \"pershkrimi\": \"This is an event \",\n        \"status\": \"FINISHED\",\n        \"nisja\": \"15:00\",\n        \"perfundimi\": \"18:00\",\n        \"start_registration\": \"2024-01-10T00:00:00.000Z\",\n        \"end_registration\": \"2024-01-24T00:00:00.000Z\",\n        \"kapaciteti\": 7,\n        \"mbajtja\": \"FIZIK\",\n        \"vendndodhja\": \"Prishtine\"\n    },\n    {\n        \"id\": 3,\n        \"photo\": \"1706175720605_photo.jpg\",\n        \"titulli\": \"Creatorclub111\",\n        \"pershkrimi\": \"This is an event\",\n        \"status\": \"UPCOMING\",\n        \"nisja\": \"12:00\",\n        \"perfundimi\": \"19:00\",\n        \"start_registration\": \"2024-01-18T00:00:00.000Z\",\n        \"end_registration\": \"2024-01-26T00:00:00.000Z\",\n        \"kapaciteti\": 4,\n        \"mbajtja\": \"FIZIK\",\n        \"vendndodhja\": \"Prishtine\"\n    },\n    {\n        \"id\": 4,\n        \"photo\": \"1706175969074_photo.jpg\",\n        \"titulli\": \"Febrero One Piece Treasure Cup\",\n        \"pershkrimi\": \"This is an event\",\n        \"status\": \"UPCOMING\",\n        \"nisja\": \"10:00\",\n        \"perfundimi\": \"17:00\",\n        \"start_registration\": \"2024-01-18T00:00:00.000Z\",\n        \"end_registration\": \"2024-01-26T00:00:00.000Z\",\n        \"kapaciteti\": 7,\n        \"mbajtja\": \"FIZIK\",\n        \"vendndodhja\": \"Prishtine\"\n    }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fshirja e eventit",
+			"item": []
+		}
+	]
+}

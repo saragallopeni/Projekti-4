@@ -1,0 +1,31 @@
+<app-nav></app-nav>
+
+<div class="eventi">
+  <div class="a">
+    <button routerLink="/">Kthehu</button>
+  </div>
+  <div class="b">
+    <div class="forma">
+      <input type="file" (change)="onFileSelected($event)" name="photo">
+      <input type="text" placeholder="titulli" [(ngModel)]="titulli" name="titulli">
+      <textarea placeholder="Përshkrimi" rows="15" cols="36" name="pershkrimi" [(ngModel)]="pershkrimi"></textarea>
+      <select name="status" [(ngModel)]="status">
+        <option *ngFor="let status of statusi" [value]="status">{{ status }}</option>
+      </select>
+      </div>
+      <div class="forma">
+      <input type="time" placeholder="Nisja" [(ngModel)]="nisja" name="nisja">
+      <input type="time" placeholder="Përfundimi" [(ngModel)]="perfundimi" name="perfundimi">
+      <input type="date" placeholder="Nisja e rregjistrimit" [(ngModel)]="start_registration" name="start_registration">
+      <input type="date" placeholder="Përfundimi i rregjistrimit" [(ngModel)]="end_registration" name="end_registration">
+      <select name="status" [(ngModel)]="mbajtja">
+        <option *ngFor="let mbajtja of mbajtjaEventit" [value]="mbajtja">{{ mbajtja }}</option>
+      </select>
+      <input type="number" placeholder="Kapaciteti" [(ngModel)]="kapaciteti" name="kapaciteti">
+      <input type="text" placeholder="Vendndodhja" [(ngModel)]="vendndodhja" name="vendndodhja">
+      <button (click)="krijo()">Krijo Eventin</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

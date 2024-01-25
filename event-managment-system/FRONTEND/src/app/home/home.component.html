@@ -1,0 +1,34 @@
+<div class="body">
+    <app-nav></app-nav>
+
+    <div class="krijo">
+        <div class="b">
+          <div class="bb">
+        <button class="krijimi" routerLink="/krijoeventin">Krijo një event</button>
+        </div></div>
+        <div class="c">
+        <input type="number" placeholder="Kerko eventin me id">
+        <button class="krijimi"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+    </div>
+
+    <div class="wrap">
+        <div class="events">
+          <div class="wrapping">
+      <div *ngFor="let event of events" class="a">
+        <div class="foto">
+          <img src="assets/eventet/{{event?.photo}}" alt="Event Photo">
+        </div>
+          <div class="permbatja">
+            <h3>{{ event.titulli }}</h3>
+            <p> Event id: {{event.id}} &nbsp; Kapaciteti : {{ event.kapaciteti}} &nbsp; Mbajtja: {{event.mbajtja}}</p>
+            <p> Nisja: {{event.nisja}} &nbsp; Perfundimi : {{ event.perfundimi}}</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+</div>
+
+<app-footer></app-footer>
